@@ -1,9 +1,9 @@
 import * as actions from '../actions/postsActions'
 
 export const initialState = {
-  posts: [],
   loading: false,
   hasErrors: false,
+  posts: [],
 }
 
 export default function postsReducer(state = initialState, action) {
